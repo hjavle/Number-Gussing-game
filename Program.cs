@@ -9,6 +9,7 @@ namespace NumberGueesingGame
             int numberOfGuess = 0;
             int maxNumberOfGuess = 5;
             int guessLeft;
+            int userGuess;
             Random guess = new Random ();
             int computerNumber = guess.Next(1, 10);
             string userName = "";
@@ -20,7 +21,7 @@ namespace NumberGueesingGame
             while ( numberOfGuess < maxNumberOfGuess)
             {
                 Console.Write("Enter guess between 1 and 10: ");
-                int userGuess = Convert.ToInt32(Console.ReadLine());
+                userGuess = Convert.ToInt32(Console.ReadLine());
                 numberOfGuess ++;
                 guessLeft = maxNumberOfGuess - numberOfGuess;
                 if (userGuess < computerNumber)
@@ -38,12 +39,12 @@ namespace NumberGueesingGame
                     Console.WriteLine(userName +" good job It took you "+ numberOfGuess + " tries to guess the number.");
                     break;
                 }
-            }
-            if ( numberOfGuess >= maxNumberOfGuess)
+            
+            if (userGuess != computerNumber)
             {
                 Console.WriteLine(userName +" You Lost the game! The number was  " + computerNumber);
             }
-
+            }
         }
     }
 } 

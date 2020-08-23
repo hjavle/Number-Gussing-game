@@ -1,7 +1,7 @@
 # The Number Guessing Game 
 
 ## Game Description 
-#### The Guessing Game is an interactive game in created with `C#` programming language 
+#### The Guessing Game is an interactive game created with `C#` programming language 
 ---
 ## User Story
     As a user I want to play a guessing game created by python
@@ -17,7 +17,7 @@
     
     Validate the user has five attempts to guess the correct number
     Validate the computer will generate a random number 
-     
+
 ---
 ## Homework Instructions
 * Create `Program.cs` file
