@@ -12,9 +12,12 @@
     
 **_When_** the user guesses a number the computer will give various hints if the number is too high or too low
     
-**_Then_** when user guesses the correct number the computer will print the answer along with the number of attempts by the user. 
+***_Then_*** when user guesses the correct number the computer will print the answer along with the number of attempts by the user. 
+
+    
     Validate the user has five attempts to guess the correct number
-    Validate the computer will generate a random number  
+    Validate the computer will generate a random number 
+     
 ---
 ## Homework Instructions
 * Create `Program.cs` file
