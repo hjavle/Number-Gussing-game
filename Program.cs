@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NumberGueesingGame
+namespace NumberGussingGame
 {
     class Program
     {
@@ -40,7 +40,7 @@ namespace NumberGueesingGame
                     break;
                 }
             
-            if (userGuess != computerNumber)
+            if ((userGuess != computerNumber) && (numberOfGuess >= maxNumberOfGuess))
             {
                 Console.WriteLine(userName +" You Lost the game! The number was  " + computerNumber);
             }
