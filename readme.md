@@ -4,7 +4,7 @@
 #### The Guessing Game is an interactive game created with `C#` programming language 
 ---
 ## User Story
-    As a user I want to play a guessing game created by python
+    As a user I want to play a guessing game created by C#
     so that I can play a guessing game for fun. 
 
 ## Acceptance Criteria 
