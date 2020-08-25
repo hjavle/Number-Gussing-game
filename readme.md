@@ -45,5 +45,5 @@
 * Add a gif
 
 ## ❤ **_Happy Coding_** ❤
-![]()
+![](./NumberGuessingGame.gif)
 
