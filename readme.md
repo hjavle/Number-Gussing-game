@@ -1,5 +1,7 @@
 # The Number Guessing Game 
 
+<img src="https://img.shields.io/badge/C%23-100%25-green"> 
+
 ## Game Description 
 #### The Guessing Game is an interactive game created with `C#` programming language 
 ---
